@@ -22,7 +22,7 @@ body {
     /* attenzione: non usare altezze se non necessario (così i contenuti non sbordano) */
     /* height: 150px; */
     padding: 10px;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 img {
