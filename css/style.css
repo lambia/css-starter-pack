@@ -22,7 +22,8 @@ header {
 .card {
     /* background: url("../img/7.jpg");
     background-size: cover; */
-    background: slategray;
+    /* background: slategray; */
+    background: url("../img/6.jpg");
     border: solid 2px darkgray;
     /* larghezza = tutto lo spazio disponibile, MA al massimo 400px */
     /* risultato, mobile = 100%, desktop = incolonnato/boxed */
@@ -35,12 +36,11 @@ header {
     margin: 20px auto;
 }
 
-img {
+.card-image {
     width: 64px;
-    margin-top: 10px;
 }
 
-h2 {
+.card-title {
     display: inline;
 }
 
