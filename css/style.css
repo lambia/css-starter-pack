@@ -19,19 +19,33 @@ header {
     padding: 16px;
 }
 
-.quadrato {
+.card {
     /* background: url("../img/7.jpg");
     background-size: cover; */
     background: slategray;
     border: solid 2px darkgray;
-    width: 150px;
+    /* larghezza = tutto lo spazio disponibile, MA al massimo 400px */
+    /* risultato, mobile = 100%, desktop = incolonnato/boxed */
+    width: 100%;
+    max-width: 400px;
     /* attenzione: non usare altezze se non necessario (così i contenuti non sbordano) */
-    /* height: 150px; */
+    /* min-height può essere usato per gestire card con poco o nessun contenuto. facoltativo. */
+    /* min-height: 135px; */
     padding: 10px;
     margin: 20px auto;
 }
 
 img {
-    width: 100%;
+    width: 64px;
     margin-top: 10px;
+}
+
+h2 {
+    display: inline;
+}
+
+footer {
+    background: teal;
+    color: white;
+    padding: 16px;
 }
